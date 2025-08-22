@@ -20,6 +20,3 @@ jobs:
 
           git remote add hf https://shalwanaa:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/shalwanaa/oop1
           git push -f hf main
-
-          git push -f hf main
-
